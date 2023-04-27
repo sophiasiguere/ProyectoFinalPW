@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style type="text/css"></style>
+    <title>Bolsas Siguere</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top"><img class="img-fluid" src="imagenes/index/logo.jpeg" alt="..." /></a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-black rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Inicio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Sobre Nosotros</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Cotizar</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="@Url.Action("Login")">Iniciar sesión / Registrarme</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead ">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagenes/index/landing1.jpg" alt="First slide">
+                </div>
+            </div>
+
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- About Section-->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Sobre nosotros</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="col-lg-12 ms-auto text-center">
+                <p class="lead">
+                    Somos una empresa innovadora, que fabrica bolsas de papel originales y exclusivas de alta calidad y excelente presentación. Se elaboran en distintas clases de papel, variedad de tamaños, impresión en distintos colores y coloca publicidad para su empresa. Todo lo anterior le permitirá realizar la meior elecciónpara promocionar su negocio en un mercado cada vez más compretitivo y exigente.
+                    Si lo que necesita es pulir sus ideas nosotros los asesoramos, ya que contamos con departamento de Arte y Diseño, formado por Diseñadores Gráficos Profesionales y creativos. Será un gusto ayudarle a elegir el material más adecuado a sus necesidades y colaborar con el éxito de su empresa.
+                </p>
+            </div>
+            <br>
+            <div class="col-lg-12 ms-auto text-center">
+                <p class="lead">
+                    We are an innovative company that manufactures paper bags original and exclusive high quality and excellent presentation.
+                    They are made in different kinds of paper, a variety of sizes, printing in different colors and places advertising for your business.
+                    All this will allow you to make the best choice for promoting your business in a market increasingly compretitivo and demanding. If your need is to polish their ideas we advise, as we have Department of Art and Design formed by professional graphic designers and creative. We will be glad to help you choose the most suitable material to needs and collaborate with the success of your business.
+                </p>
+            </div>
+    </section>
+    <!-- Contact Section-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Cotiza</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Contact Section Form-->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <form asp-action="Cotizar">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" name="nombre" placeholder="Ingresa tu nombre" />
+                            <label for="nombre">Nombre completo</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">El campo nombre es requerido</div>
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" name="correo" type="email" placeholder="name@example.com" />
+                            <label for="email">Correo electrónico</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">El campo email es requerido</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" name="telefono" placeholder="(123) 456-7890"/>
+                            <label for="phone">Número de teléfono</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">El número de telefono es requerido</div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="altura" type="text" name="altura" placeholder="Tamaño Altura" />
+                            <label for="altura">Tamaño Altura</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="horizonte" type="text" placeholder="Tamaño Horizonte" name="horizonte"/>
+                            <label for="name">Tamaño Horizonte</label>
+                        </div>
+                         <div class="form-floating mb-3">
+                            <input class="form-control" id="extension" type="text" name="extension" placeholder="Tamaño Extensión" />
+                           <label for="name">Tamaño Extensión</label>
+                        </div>
+                         <div class="form-floating mb-3">
+                            <input class="form-control" id="pantone" type="text" name="pantone" placeholder="Color de Pantone" />
+                          <label for="name">Color Pantone</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" name="material" placeholder="Material" />
+                            <label for="name">Material</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" name="calibre" placeholder="Calibre"/>
+                            <label for="name">Calibre</label>
+
+                         <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="file" name="logo" placeholder="Calibre" />
+                                <label for="name">Logo</label>
+
+                     
+                        </div>
+
+
+                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error mandando mensaje!</div></div>
+                        <!-- Submit Button-->
+                        <button class="btn btn-primary btn-x" id="submitButton" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Números de teléfono</h4>
+                    <p class="lead mb-0">
+                        +(502) 5941-2152
+                        <br />
+                        +(502) 2220-9148
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Encuentranos</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
+                </div>
+                <!-- Footer About Text-->
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,12 @@
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\bin\Release\net7.0\BolsasSiguereModel.deps.json
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\bin\Release\net7.0\BolsasSiguereModel.dll
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\bin\Release\net7.0\BolsasSiguereModel.pdb
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\obj\Release\net7.0\BolsasSiguereModel.csproj.AssemblyReference.cache
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\obj\Release\net7.0\BolsasSiguereModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\obj\Release\net7.0\BolsasSiguereModel.AssemblyInfoInputs.cache
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\obj\Release\net7.0\BolsasSiguereModel.AssemblyInfo.cs
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\obj\Release\net7.0\BolsasSiguereModel.csproj.CoreCompileInputs.cache
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\obj\Release\net7.0\BolsasSiguereModel.dll
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\obj\Release\net7.0\refint\BolsasSiguereModel.dll
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\obj\Release\net7.0\BolsasSiguereModel.pdb
+C:\Users\sophi\source\repos\Proyecto2_Web_SophiaSiguere\BolsasSiguereModel\obj\Release\net7.0\ref\BolsasSiguereModel.dll
