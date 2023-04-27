@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Proyecto2_Web_SophiaSiguere.props" />
-</Project>
